@@ -27,7 +27,7 @@ jobs:
     - name: Build project
       run: pnpm run build # Or npm run build, or yarn build
 
-    - name: Deploy to GitHub Pages
+    - name: Deploy to GitHub Page
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
