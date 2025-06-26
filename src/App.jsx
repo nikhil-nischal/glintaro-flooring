@@ -167,11 +167,36 @@ function App() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="text-2xl font-bold text-white">GLINTARO</div>
           <nav className="hidden md:flex space-x-8">
-            <a href="#challenges" className="text-gray-300 hover:text-green-500 transition-colors">CHALLENGES</a>
-            <a href="#partnership" className="text-gray-300 hover:text-green-500 transition-colors">PARTNERSHIP</a>
-            <a href="#what-contractors-want" className="text-gray-300 hover:text-green-500 transition-colors">WHAT YOU WANT</a>
-            <a href="#what-sets-us-apart" className="text-gray-300 hover:text-green-500 transition-colors">WHAT SETS US APART</a>
-            <a href="#faq" className="text-gray-300 hover:text-green-500 transition-colors">FAQ</a>
+            <a
+              href="#challenges"
+              className="text-gray-300 hover:text-green-500 transition-colors"
+            >
+              CHALLENGES
+            </a>
+            <a
+              href="#partnership"
+              className="text-gray-300 hover:text-green-500 transition-colors"
+            >
+              PARTNERSHIP
+            </a>
+            <a
+              href="#what-contractors-want"
+              className="text-gray-300 hover:text-green-500 transition-colors"
+            >
+              WHAT YOU WANT
+            </a>
+            <a
+              href="#what-sets-us-apart"
+              className="text-gray-300 hover:text-green-500 transition-colors"
+            >
+              WHAT SETS US APART
+            </a>
+            <a
+              href="#faq"
+              className="text-gray-300 hover:text-green-500 transition-colors"
+            >
+              FAQ
+            </a>
           </nav>
           <div className="flex items-center space-x-4">
             <Phone className="w-4 h-4 text-green-500" />
@@ -189,32 +214,54 @@ function App() {
             </Badge>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Unlock Consistent, High-Quality Flooring Jobs<br />
+            Unlock Consistent, High-Quality Flooring Jobs
+            <br />
             <span className="text-green-500">on a Partnership Basis</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto">
-            We deliver ready-to-quote flooring projects straight to you. No chasing, no cold calls—just real opportunities. 
-            <span className="text-green-500 font-semibold"> You only pay when you win a job.</span>
+            We deliver ready-to-quote flooring projects straight to you. No
+            chasing, no cold calls—just real opportunities.
+            <span className="text-green-500 font-semibold">
+              {" "}
+              You only pay when you win a job.
+            </span>
           </p>
-          <Button className="bg-green-500 hover:bg-green-600 text-black font-semibold px-8 py-4 text-lg rounded-full">
-            Book Your Intro Call
-          </Button>
+          <a
+            href="https://api.leadconnectorhq.com/widget/bookings/partnership-call-30-min"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="bg-green-500 hover:bg-green-600 text-black font-semibold px-8 py-4 text-lg rounded-full">
+              Book Your Intro Call
+            </Button>
+          </a>
         </div>
       </section>
 
       {/* Challenges Section */}
       <section id="challenges" className="py-16 px-4 bg-gray-900/50">
         <div className="container mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Are These Challenges Holding You Back?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+            Are These Challenges Holding You Back?
+          </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {challenges.map((challenge, index) => (
-              <Card key={index} className="bg-gray-900 border-gray-700 text-center">
+              <Card
+                key={index}
+                className="bg-gray-900 border-gray-700 text-center"
+              >
                 <CardHeader>
-                  <div className="flex justify-center mb-4">{challenge.icon}</div>
-                  <CardTitle className="text-white">{challenge.title}</CardTitle>
+                  <div className="flex justify-center mb-4">
+                    {challenge.icon}
+                  </div>
+                  <CardTitle className="text-white">
+                    {challenge.title}
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-300">{challenge.description}</CardDescription>
+                  <CardDescription className="text-gray-300">
+                    {challenge.description}
+                  </CardDescription>
                 </CardContent>
               </Card>
             ))}
@@ -225,16 +272,23 @@ function App() {
       {/* The Glintaro Partnership Section */}
       <section id="partnership" className="py-16 px-4">
         <div className="container mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">The Glintaro Partnership: Your Competitive Edge</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+            The Glintaro Partnership: Your Competitive Edge
+          </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {glintaroPartnership.map((item, index) => (
-              <Card key={index} className="bg-gray-900 border-gray-700 text-center">
+              <Card
+                key={index}
+                className="bg-gray-900 border-gray-700 text-center"
+              >
                 <CardHeader>
                   <div className="flex justify-center mb-4">{item.icon}</div>
                   <CardTitle className="text-white">{item.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-300">{item.description}</CardDescription>
+                  <CardDescription className="text-gray-300">
+                    {item.description}
+                  </CardDescription>
                 </CardContent>
               </Card>
             ))}
@@ -245,16 +299,23 @@ function App() {
       {/* What Flooring Contractors Really Want Section */}
       <section id="what-contractors-want" className="py-16 px-4 bg-gray-900/50">
         <div className="container mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">What Flooring Contractors Really Want</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+            What Flooring Contractors Really Want
+          </h2>
           <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {whatContractorsWant.map((item, index) => (
-              <Card key={index} className="bg-gray-900 border-gray-700 text-center">
+              <Card
+                key={index}
+                className="bg-gray-900 border-gray-700 text-center"
+              >
                 <CardHeader>
                   <div className="flex justify-center mb-4">{item.icon}</div>
                   <CardTitle className="text-white">{item.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-300">{item.description}</CardDescription>
+                  <CardDescription className="text-gray-300">
+                    {item.description}
+                  </CardDescription>
                 </CardContent>
               </Card>
             ))}
@@ -265,16 +326,23 @@ function App() {
       {/* What Sets Us Apart Section */}
       <section id="what-sets-us-apart" className="py-16 px-4">
         <div className="container mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">What Sets Us Apart</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+            What Sets Us Apart
+          </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {whatSetsUsApart.map((item, index) => (
-              <Card key={index} className="bg-gray-900 border-gray-700 text-center">
+              <Card
+                key={index}
+                className="bg-gray-900 border-gray-700 text-center"
+              >
                 <CardHeader>
                   <div className="flex justify-center mb-4">{item.icon}</div>
                   <CardTitle className="text-white">{item.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-300">{item.description}</CardDescription>
+                  <CardDescription className="text-gray-300">
+                    {item.description}
+                  </CardDescription>
                 </CardContent>
               </Card>
             ))}
@@ -285,12 +353,20 @@ function App() {
       {/* Partnership Built on Mutual Success */}
       <section className="py-16 px-4 bg-gray-900/50">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">A Partnership Built on Mutual Success</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            A Partnership Built on Mutual Success
+          </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-4xl mx-auto">
-            As we invest our resources and expertise into your growth, we can't work with everyone. We seek partners who are equally committed to excellence—flooring contractors who consistently deliver outstanding results, have a strong track record of positive client experiences, and maintain a high close rate. This ensures our partnership is built on a solid foundation of mutual success.
+            As we invest our resources and expertise into your growth, we can't
+            work with everyone. We seek partners who are equally committed to
+            excellence—flooring contractors who consistently deliver outstanding
+            results, have a strong track record of positive client experiences,
+            and maintain a high close rate. This ensures our partnership is
+            built on a solid foundation of mutual success.
           </p>
           <p className="text-lg text-green-400 font-semibold">
-            We work only with flooring contractors, and we want each of our clients to dominate their local area.
+            We work only with flooring contractors, and we want each of our
+            clients to dominate their local area.
           </p>
         </div>
       </section>
@@ -298,32 +374,48 @@ function App() {
       {/* Who We Partner With Section */}
       <section className="py-16 px-4">
         <div className="container mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Who We Partner With</h2>
-          <p className="text-xl text-gray-300 text-center mb-12">You're a great fit if you:</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+            Who We Partner With
+          </h2>
+          <p className="text-xl text-gray-300 text-center mb-12">
+            You're a great fit if you:
+          </p>
           <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
             {whoWePartnerWith.map((item, index) => (
-              <Card key={index} className="bg-gray-900 border-gray-700 text-center">
+              <Card
+                key={index}
+                className="bg-gray-900 border-gray-700 text-center"
+              >
                 <CardHeader>
                   <div className="flex justify-center mb-4">{item.icon}</div>
                   <CardTitle className="text-white">{item.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-300">{item.description}</CardDescription>
+                  <CardDescription className="text-gray-300">
+                    {item.description}
+                  </CardDescription>
                 </CardContent>
               </Card>
             ))}
           </div>
-          
-          <h3 className="text-2xl md:text-3xl font-bold text-center mb-8">We are not the right fit if you:</h3>
+
+          <h3 className="text-2xl md:text-3xl font-bold text-center mb-8">
+            We are not the right fit if you:
+          </h3>
           <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {notRightFit.map((item, index) => (
-              <Card key={index} className="bg-gray-900 border-gray-700 text-center">
+              <Card
+                key={index}
+                className="bg-gray-900 border-gray-700 text-center"
+              >
                 <CardHeader>
                   <div className="flex justify-center mb-4">{item.icon}</div>
                   <CardTitle className="text-white">{item.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-300">{item.description}</CardDescription>
+                  <CardDescription className="text-gray-300">
+                    {item.description}
+                  </CardDescription>
                 </CardContent>
               </Card>
             ))}
@@ -334,27 +426,43 @@ function App() {
       {/* CTA Section */}
       <section className="py-16 px-4 bg-green-500/10">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to See If We're a Good Fit?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Ready to See If We're a Good Fit?
+          </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Book your intro call now to discover how the Glintaro Partnership and our AI Market Dominator system can fill your calendar with high-quality flooring jobs—without the hassle.
-            <br /><br />
-            We'll explain everything on our call—no obligations, just a conversation to see if we're the right fit for each other.
+            Book your intro call now to discover how the Glintaro Partnership
+            and our AI Market Dominator system can fill your calendar with
+            high-quality flooring jobs—without the hassle.
+            <br />
+            <br />
+            We'll explain everything on our call—no obligations, just a
+            conversation to see if we're the right fit for each other.
           </p>
-          <Button className="bg-green-500 hover:bg-green-600 text-black font-semibold px-8 py-4 text-lg rounded-full">
-            Book Your Intro Call
-          </Button>
+          <a
+            href="https://api.leadconnectorhq.com/widget/bookings/partnership-call-30-min"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="bg-green-500 hover:bg-green-600 text-black font-semibold px-8 py-4 text-lg rounded-full">
+              Book Your Intro Call
+            </Button>
+          </a>
         </div>
       </section>
 
       {/* FAQ Section */}
       <section id="faq" className="py-16 px-4 bg-gray-900/50">
         <div className="container mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+            Frequently Asked Questions
+          </h2>
           <div className="max-w-4xl mx-auto space-y-6">
             {faqs.map((faq, index) => (
               <Card key={index} className="bg-gray-900 border-gray-700">
                 <CardHeader>
-                  <CardTitle className="text-white text-left">{faq.question}</CardTitle>
+                  <CardTitle className="text-white text-left">
+                    {faq.question}
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-300">{faq.answer}</p>
@@ -369,9 +477,16 @@ function App() {
       <footer className="py-8 px-4 border-t border-gray-800">
         <div className="container mx-auto text-center">
           <div className="text-2xl font-bold text-white mb-4">GLINTARO</div>
-          <p className="text-gray-400 mb-4">Glintaro Partnership – Where Your Success Is Our Only Goal.</p>
+          <p className="text-gray-400 mb-4">
+            Glintaro Partnership – Where Your Success Is Our Only Goal.
+          </p>
           <div className="flex flex-col items-center space-y-2 text-gray-400">
-            <a href="mailto:nickn@glintaro.com" className="hover:text-green-500 transition-colors">nickn@glintaro.com</a>
+            <a
+              href="mailto:nickn@glintaro.com"
+              className="hover:text-green-500 transition-colors"
+            >
+              nickn@glintaro.com
+            </a>
             <div className="flex items-center space-x-2">
               <Phone className="w-4 h-4" />
               <span>+1 (231) 599 9809</span>
@@ -381,7 +496,7 @@ function App() {
         </div>
       </footer>
     </div>
-  )
+  );
 }
 
 export default App
