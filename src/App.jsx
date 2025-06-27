@@ -9,7 +9,7 @@ import {
   TrendingDown, ShoppingCart, AlertTriangle, Flame
 } from 'lucide-react'
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import ProposalPage from '@/components/ProposalPage.jsx';
 import gammaPages from '@/gammaConfig';
 
