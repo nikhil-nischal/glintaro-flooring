@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script takes the current URL and converts the path and query
+      // string into just the path and stores it just before the hash. It then
+      // redirects the browser to the new URL with the redirect path and query
+      // string appended as the hash, this allows HTML5 mode to be used.
+      // This assumes your project is deployed to the root of your custom domain
+      // or to the root of your GitHub Pages URL (i.e. not to a subfolder ).
+      // If you are deploying to a subfolder, you must change the following:
+      //   var path = 
+      //     [
+      //       location.pathname.slice(0, -1) + location.search,
+      //       location.pathname.slice(0, -1) + location.search,
+      //     ].join("");
+      // to
+      //   var path = 
+      //     [
+      //       location.pathname.slice(0, -1) + location.search,
+      //       location.pathname.slice(0, -1) + location.search,
+      //     ].join("");
+      // where <REPOSITORY_NAME> is the name of your GitHub repository
+      // (e.g. your-repo-name).
+      // This script is only needed for HTML5 mode, if you are using hash mode
+      // (i.e. URLs like /#about) you don\\'t need this script.
+      var path = (
+        location.pathname.slice(0, -1) + location.search
+      ).slice(1).split("/");
+      var redirect = path.length ? path[0] : ".";
+      location.replace(
+        location.protocol + "//" + location.hostname + (location.port ? ":" + location.port : "") + "/" + "/#" + path.join("/")
+      );
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
