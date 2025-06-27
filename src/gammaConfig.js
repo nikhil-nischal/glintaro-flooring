@@ -9,6 +9,11 @@ const gammaPages = [
     gammaLink: "https://gamma.app/embed/10i641ts2cw7khg",
     title: "Pre-Call Presentation",
   },
+  {
+    path: "/documents/presentation",
+    gammaLink: "https://gamma.app/embed/dwrnkttxyeob3ek",
+    title: "Presentation",
+  },
 
   // Add more Gamma pages here as needed
   // Example:
