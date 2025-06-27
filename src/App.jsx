@@ -268,8 +268,17 @@ function App() {
                       You only pay when you win a job.
                     </span>
                   </p>
-                  <Button className="bg-green-500 hover:bg-green-600 text-black font-semibold px-8 py-4 text-lg rounded-full">
-                    Book Your Intro Call
+                  <Button
+                    asChild
+                    className="bg-green-500 hover:bg-green-600 text-black font-semibold px-8 py-4 text-lg rounded-full"
+                  >
+                    <a
+                      href="https://api.leadconnectorhq.com/widget/bookings/partnership-call-30-min"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Book Your Intro Call
+                    </a>
                   </Button>
                 </div>
               </section>
@@ -495,8 +504,17 @@ function App() {
                     flooring jobs to you in the next 90 days. No obligations,
                     just actionable insights.
                   </p>
-                  <Button className="bg-green-500 hover:bg-green-600 text-black font-semibold px-8 py-4 text-lg rounded-full">
-                    Book Your Intro Call
+                  <Button
+                    asChild
+                    className="bg-green-500 hover:bg-green-600 text-black font-semibold px-8 py-4 text-lg rounded-full"
+                  >
+                    <a
+                      href="https://api.leadconnectorhq.com/widget/bookings/partnership-call-30-min"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Book Your Intro Call
+                    </a>
                   </Button>
                 </div>
               </section>
