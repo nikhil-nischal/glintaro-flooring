@@ -250,7 +250,7 @@ function App() {
                 <div className="container mx-auto text-center">
                   <div className="mb-4">
                     <Badge className="bg-green-500/20 text-green-400 border-green-500/30 px-4 py-2 text-sm">
-                      Don\'t Pay Us If You Don\'t Get the Job
+                      Don't Pay Us If You Don't Get the Job
                     </Badge>
                   </div>
                   <h1 className="text-4xl md:text-6xl font-bold mb-6">
