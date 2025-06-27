@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const ProposalPage = ({ gammaLink, title }) => {
+  useEffect(() => {
+    document.title = title ? `${title} | Glintaro` : "Glintaro - Partnership";
+  }, [title]);
+
   return (
     <div style={{ width: "100vw", height: "100vh", overflow: "hidden" }}>
       <iframe
