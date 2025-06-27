@@ -1,0 +1,12 @@
+node_modules/
+.pnpm-store/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store # macOS specific
+*.log
+*.tgz
+*.swp
+.idea/ # JetBrains IDEs
+.vscode/ # VS Code
