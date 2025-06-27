@@ -409,7 +409,7 @@ function App() {
                   </h2>
                   <p className="text-xl text-gray-300 mb-8 max-w-4xl mx-auto">
                     As we invest our resources and expertise into your growth,
-                    we can\'t work with everyone. We seek partners who are
+                    we can't work with everyone. We seek partners who are
                     equally committed to excellence—flooring contractors who
                     consistently deliver outstanding results, have a strong
                     track record of positive client experiences, and maintain a
@@ -430,7 +430,7 @@ function App() {
                     Who We Partner With
                   </h2>
                   <p className="text-xl text-gray-300 text-center mb-12">
-                    You\'re a great fit if you:
+                    You're a great fit if you:
                   </p>
                   <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
                     {whoWePartnerWith.map((item, index) => (
