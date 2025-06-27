@@ -4,6 +4,11 @@ const gammaPages = [
     gammaLink: "https://gamma.app/embed/87d1ufr4syo3px5",
     title: "Glintaro Proposal",
   },
+  {
+    path: "/documents/precall-presentation",
+    gammaLink: "https://gamma.app/embed/10i641ts2cw7khg",
+    title: "Glintaro Pre-Call Presentation",
+  },
 
   // Add more Gamma pages here as needed
   // Example:
