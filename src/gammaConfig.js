@@ -16,7 +16,7 @@ const gammaPages = [
   },
   {
     path: "/returns",
-    gammaLink: "https://gamma.app/embed/dwrnkttxyeob3ek",
+    gammaLink: "https://gamma.app/embed/p6hwy0560ghxjv0",
     title: "Returns",
   },
 
