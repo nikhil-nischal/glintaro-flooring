@@ -7,7 +7,12 @@ const gammaPages = [
   {
     path: "/precall",
     gammaLink: "https://gamma.app/embed/10i641ts2cw7khg",
-    title: "Pre-Call Presentation",
+    title: "Pre Call Presentation",
+  },
+  {
+    path: "/documents/precall",
+    gammaLink: "https://gamma.app/embed/10i641ts2cw7khg",
+    title: "Pre Call Presentation",
   },
   {
     path: "/presentation",
