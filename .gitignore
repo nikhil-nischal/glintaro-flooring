@@ -10,3 +10,4 @@ yarn-error.log*
 *.swp
 .idea/ # JetBrains IDEs
 .vscode/ # VS Code
+.DS_Store

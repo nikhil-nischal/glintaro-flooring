@@ -24,6 +24,11 @@ const gammaPages = [
     gammaLink: "https://gamma.app/embed/p6hwy0560ghxjv0",
     title: "Returns",
   },
+  {
+    path: "/geiver-agreement",
+    gammaLink: "https://gamma.app/embed/wshe2a348v1h7v9",
+    title: "Geiver Agreement",
+  },
 
   // Add more Gamma pages here as needed
   // Example:
