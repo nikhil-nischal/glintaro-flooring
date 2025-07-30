@@ -1,33 +1,13 @@
 const gammaPages = [
   {
     path: "/proposal",
-    gammaLink: "https://gamma.app/embed/87d1ufr4syo3px5",
+    gammaLink: "https://gamma.app/embed/b7otvwc1zeebsz5",
     title: "Proposal",
   },
   {
     path: "/precall",
-    gammaLink: "https://gamma.app/embed/10i641ts2cw7khg",
+    gammaLink: "https://gamma.app/embed/esi3v7c603ucrbi",
     title: "Pre Call Presentation",
-  },
-  {
-    path: "/documents/precall",
-    gammaLink: "https://gamma.app/embed/10i641ts2cw7khg",
-    title: "Pre Call Presentation",
-  },
-  {
-    path: "/presentation",
-    gammaLink: "https://gamma.app/embed/dwrnkttxyeob3ek",
-    title: "Presentation",
-  },
-  {
-    path: "/returns",
-    gammaLink: "https://gamma.app/embed/p6hwy0560ghxjv0",
-    title: "Returns",
-  },
-  {
-    path: "/geiver-agreement",
-    gammaLink: "https://gamma.app/embed/wshe2a348v1h7v9",
-    title: "Geiver Agreement",
   },
 
   // Add more Gamma pages here as needed
